@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.main-content {
+  display: flex;
+}
+
+.App-intro {
+  flex: 1;
+}
+
+.left-nav {
+  width: 280px;  
+}
+
+.left-nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.left-nav .primary-menu-item {
+  font-weight:bold;
+  display:inline-block;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.left-nav .submenu-item {
+  text-decoration: none;
+  display:inline-block;
+  margin-bottom: 2px;
+}

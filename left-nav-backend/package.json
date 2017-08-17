@@ -1,0 +1,17 @@
+{
+  "name": "left-nav-backend",
+  "version": "1.0.0",
+  "description": "Server for left-nav api endpoints",
+  "main": "serve.js",
+  "scripts": {
+    "server": "node ./server.js"
+  },
+  "keywords": [
+    "left-nav-backend"
+  ],
+  "author": "Aori Nevo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
